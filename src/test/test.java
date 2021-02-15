@@ -1,7 +1,9 @@
 package test;
-
+import org.testng.annotations.*;
 public class test {
-		public static void main(String []args) {
+	
+		@Test
+		public  void maisn1() {
 			System.out.print(":asdf");
 		}
 }
