@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestParameter xml file ">
+  <test thread-count="5" name="Test Parameters">
+  
+  
+  <parameter name="name" value="kastriot"></parameter>
+  <parameter name="lastname" value="kastriot"></parameter>
+  	<parameter name="city" value="istog"></parameter>
+  	<classes>
+  		<class name="test.TestParameters"/>
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
